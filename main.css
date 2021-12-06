@@ -1,0 +1,105 @@
+html {
+	background: url('images/main.jpg') no-repeat fixed center / cover;
+	position: relative;
+}
+
+body{
+	background: inherit;
+}
+
+.block{
+	position: relative;
+	margin-top: 150px;
+	margin-left: 10vw;
+	width: 25vw;
+	border: 2px solid black;
+	padding: 40px;
+	background:rgba(255, 255, 255, 0.2);
+	backdrop-filter: blur(10px);
+;
+
+}
+
+.block p {
+	font-family: 'Marck Script', cursive;
+	font-size: 45px;
+	margin-bottom: 40px;
+
+}
+
+.block span{
+	font-family: 'Marck Script', cursive;
+	font-size: 40px;
+}
+
+.boxes{
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr;
+	grid-template-rows:  1fr 1fr;
+	justify-items: center;
+}
+
+
+.box{
+	position: relative;
+	margin: 10px;
+	width: 200px;
+	margin-bottom: 50px;
+	padding: 20px;
+	border: 2px solid black;
+	background:rgba(255, 255, 255, 0.2);
+	backdrop-filter: blur(10px);
+}
+.box img{
+	position: relative;
+	height: 100px;
+	left: 50%;
+	
+		transform: translate(-50%);
+}
+
+.box p{
+	font-family: 'Cormorant Garamond';
+	font-size: 20px;
+	text-align: center;
+}
+
+.satze h1{
+	margin-top: 60px;
+	font-family: 'Cormorant Garamond';
+	font-size: 50px;
+	color: black;
+	text-align: center;
+	text-shadow: 3px 3px 5px grey;
+	margin-bottom: 10px;
+}
+
+.satze{
+	background:rgba(0, 0, 0, 0.3);
+
+}
+
+@media (max-width: 900px){
+	.block p {
+	font-size: 35px;
+}
+
+.block span{
+	font-family: 'Marck Script', cursive;
+	font-size: 25px;
+}
+.boxes{
+
+	grid-template-columns: 1fr 1fr;
+	grid-template-rows: 1fr 1fr 1fr;
+
+}
+}
+@media (max-width: 600px){
+	.boxes{
+
+	grid-template-columns: 1fr;
+	grid-template-rows: 1fr 1fr 1fr 1f 1fr 1fr;
+
+}
+}

@@ -1,0 +1,107 @@
+.conteiner{
+	display: flex;
+	justify-content: space-around;
+	flex-wrap: wrap;
+}
+
+.box{
+	margin-top: 50px;
+	margin-bottom: 40px;
+	position: relative;
+	background: white;
+	width: 275px;
+	height: 375px;
+	overflow: hidden;
+	border-radius: 15px;
+	box-shadow: 5px 5px 10px #523e3e;
+	transition: 0.8s;
+}
+.box:hover{
+	transform: scale(1.05,1.05);
+}
+.box img{
+	position: absolute;
+	width: 100%;
+	top: 0;
+}
+
+.box span{
+	position: absolute;
+	width: 100%;
+	text-align: center;
+	top: 43%;
+	font-size: 30px;
+	font-family: 'Cormorant Garamond';
+
+}
+.box p{
+	position: absolute;
+	text-align: center;
+	top:57%;
+	right: 7%;
+	left: 7%;
+	font-size: 18px;
+	font-family: 'EB Garamond', serif;
+}
+
+.box .btn{
+	position: absolute;
+	text-align: center;
+	padding-top: 5px;
+	text-decoration: none;
+	color: black;
+	bottom: 10%;
+	font-size: 19px;
+	border-radius: 2px;
+	border: 2px solid #1e130c;
+	font-weight: 800;
+	font-family: 'EB Garamond', serif;
+	left: 30%;
+	width: 40%;
+	height: 30px;
+	background: #9a8478;
+	overflow: hidden;
+}
+
+.box .btn:hover::before{
+	content: '';
+	position: absolute;
+	top: 0;
+	height: 100px;
+	width: 80px;
+	opacity: 0.6;
+	transform: skewY(-45deg);
+	animation: blick 1.8s 1 forwards;
+	background: linear-gradient(90deg, white, #9a8478);
+}
+
+@keyframes blick{
+	0%{
+		left: 300px;
+	}
+
+	100%{
+		left: -150px;
+	}
+} 
+
+.text {
+	position: relative;
+	margin: 20px 10px 0 50px;
+}
+.text h1{
+	font-family: 'Cormorant Garamond';
+	font-size: 50px;
+	color: black;
+	text-align: center;
+	text-shadow: 3px 3px 5px grey;
+	margin-bottom: 10px;
+}
+
+.text p{
+	text-indent: 20px;
+	font-size: 25px;
+	font-family: 'Cormorant Garamond';
+	color: black;
+
+}
