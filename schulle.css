@@ -215,39 +215,3 @@
 				transform: translateX(-50%);
 			}
 		}
-
-/*
-.box:hover ul{
-    animation-name: link1;
-	animation-duration: 2s;
-	animation-iteration-count: 1;
-	animation-fill-mode: forwards;
-}
-
-
-@keyframes link1{
-	0%{
-		margin-right: 0px;
-	}
-
-	100%{
-		margin-right: 65vw;
-	}
-}
-@media (max-width: 1200px){
-
-.right ul{
-	font-size: 23px;
-}
-
-@keyframes link1{
-	0%{
-		margin-right: 0px;
-	}
-
-	100%{
-		margin-right: 50vw;
-	}
-}
-}
-*/
