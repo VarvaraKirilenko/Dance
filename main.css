@@ -102,4 +102,16 @@ body{
 	grid-template-rows: 1fr 1fr 1fr 1f 1fr 1fr;
 
 }
+	.block p {
+	font-size: 30px;
+}
+
+.block span {
+	font-size: 25px;
+}
+
+.block{
+	padding: 10px;
+	width: 40vw;
+}
 }
