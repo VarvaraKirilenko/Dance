@@ -188,4 +188,8 @@ position: relative;
 	.text h1{
 		font-size: 40px;
 	}
+	.text iframe{
+		width: 250px;
+		height: auto;
+	}
 }
