@@ -195,11 +195,10 @@ main{
 	}
 }
 
-@media(max-width: 700px){
+@media(max-width: 900px){
 	.right{
 		display: none;
 	}
-
 	.box::before{
 		display: none;
 	}
@@ -207,6 +206,10 @@ main{
 	.left img{
 		left: 50%;
 		transform: translateX(-50%);
+	}
+	.info1{
+		position: relative;
+		width: 200px;
 	}
 	.info1 iframe{
 		width: 200px;
