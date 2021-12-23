@@ -208,6 +208,10 @@ main{
 		left: 50%;
 		transform: translateX(-50%);
 	}
+	.info1 iframe{
+		width: 200px;
+		height: 150px;
+	}
 }
 
 
