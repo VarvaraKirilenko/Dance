@@ -176,7 +176,12 @@ position: relative;
 	margin-bottom: 20px;
 	transform: translate(-50%);
 }
-
+@media (max-width: 900px){
+	.text iframe{
+		width: 400px;
+		height: 210px;
+	}
+}
 @media (max-width: 600px){
 	.navigation{
 		display: none;
